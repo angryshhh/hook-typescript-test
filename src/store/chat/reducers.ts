@@ -7,7 +7,18 @@ import {
 } from './type';
 
 const initialData: ChatState = {
-  messages: [],
+  messages: [
+    {
+      message: 'nice to see you',
+      user: 'cui',
+      timestamp: new Date('2012-03-03').getTime(),
+    },
+    {
+      message: 'I don\'t like you',
+      user: 'qi',
+      timestamp: new Date('2012-09-08').getTime(),
+    },
+  ],
 };
 
 export function chatReducer(
