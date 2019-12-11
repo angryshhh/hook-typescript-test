@@ -4,7 +4,7 @@ import {
   ChatActionTypes,
   SEND_MESSAGE,
   DELETE_MESSAGE,
-} from './type';
+} from './types';
 
 const initialData: ChatState = {
   messages: [
